@@ -18,7 +18,16 @@
       </p>
     </div>
 
-    <div class="main-content"></div>
+    <main class="main-content">
+      <img src="./main-image.png" alt="Capitol Building" class="main-image" />
+      <h1>Free federal return for everyone</h1>
+      <p>Get a head start on your 2024 taxes</p>
+      <button class="start-button">Start 2024 return</button>
+
+      <div class="pricing-info">
+        <span>Federal $0</span> <span>State $14.99</span>
+      </div>
+    </main>
   </div>
 </template>
 
