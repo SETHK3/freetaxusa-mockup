@@ -3,8 +3,8 @@
     <div class="navbar-wrapper">
       <div class="navbar-section">
         <img
-          src="./../assets/freetax-logo.svg"
-          alt="FreeTaxUSA Logo"
+          src="./../assets/taxhawk-logo.svg"
+          alt="TaxHawk Logo"
           class="logo"
         />
         <div class="nav-links">
@@ -32,12 +32,16 @@
         alt="Capitol Building"
         class="main-image"
       />
-      <h1>Free federal return for everyone</h1>
+      <h1>File Federal Taxes Free!</h1>
       <p>Get a head start on your 2024 taxes</p>
       <button class="start-button">Start 2024 return</button>
 
       <div class="pricing-info">
         <span>Federal $0</span> <span>State $14.99</span>
+      </div>
+
+      <div class="help-link">
+        <a href="#">Start with the help of a Pro</a>
       </div>
     </div>
   </div>
@@ -66,6 +70,8 @@ export default {
 .navbar-wrapper {
   position: fixed;
   width: 100%;
+  z-index: 1;
+  background-color: white;
 
   .navbar-section {
     display: flex;
@@ -79,7 +85,7 @@ export default {
   }
 
   .logo {
-    height: 30px;
+    height: 40px;
   }
 
   .nav-links {
@@ -101,6 +107,7 @@ export default {
     padding: 0.5rem 1rem;
     font-family: Lexend, sans-serif;
     font-size: 1.2rem;
+    box-shadow: 10px;
     cursor: pointer;
   }
 }
@@ -152,6 +159,15 @@ export default {
     display: flex;
     gap: 2.5rem;
     justify-content: center;
+    margin-top: 2.5rem;
+  }
+
+  .help-link a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-top: 2rem;
   }
 }
 </style>
