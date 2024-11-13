@@ -10,6 +10,15 @@
       </ul>
       <button class="sign-in">Sign In</button>
     </nav>
+
+    <div class="notification-bar">
+      <p>
+        Looking to prepare your <a href="#">2023</a> tax return?
+        <a href="#">Sign in to 2023</a>
+      </p>
+    </div>
+
+    <div class="main-content"></div>
   </div>
 </template>
 
