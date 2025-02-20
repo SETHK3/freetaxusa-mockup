@@ -18,12 +18,12 @@
         </button>
       </div>
 
-      <div class="notification-bar">
+      <!-- <div class="notification-bar">
         <p>
           Looking to prepare your <a href="#">2023</a> tax return?
           <a href="#">Sign in to 2023</a>
         </p>
-      </div>
+      </div> -->
     </div>
 
     <div class="main-content">
